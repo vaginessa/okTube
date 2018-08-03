@@ -91,11 +91,11 @@ class MainActivity : AppCompatActivity() {
 
             var dialogText1 = getString(R.string.download_dialog)
             var dialogText2 = getString(R.string.download_dialog2)
-            var alertText = dialogText1 + selectedFormat + dialogText2
+            var alertText = dialogText1 + " " +selectedFormat + dialogText2
             alert("" + alertText) {
                 yesButton {
                     val epoch_time = System.currentTimeMillis() / 1000
-                    var apiURL_string = api_url + " " + selectedFormat + "/" + yt_id + "/" + epoch_time
+                    var apiURL_string = api_url + selectedFormat + "/" + yt_id + "/" + epoch_time
                     startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(apiURL_string)))
                 }
                 }.show()
