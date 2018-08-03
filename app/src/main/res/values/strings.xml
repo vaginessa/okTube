@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">okTube</string>
+    <string name="yt_videoid">Enter the YouTube Video ID</string>
+    <string name="yt_download">Download</string>
+    <string name="action_credits">Credits</string>
+    <string name="action_licenses">Licenses</string>
+    <string name="action_help">Help</string>
+    <string name="download_dialog">In the following screen, press on \"Download</string>
+    <string name="download_dialog2">\", then complete the captcha and press on \"OK\" or \"Download\"</string>
+    <string name="string_ok">Ok</string>
+    <string name="reneantonio">I\'m Rene Antonio. I make YouTube videos and try to develop some apps :)</string>
+    <string name="licensesURL" translatable="false">https://github.com/reneantoniotg/okTube/blob/master/LICENSESapp.md</string>
+    <string name="helpURL" translatable="false">https://github.com/reneantoniotg/okTube/blob/master/HELPapp.md</string>
+</resources>
